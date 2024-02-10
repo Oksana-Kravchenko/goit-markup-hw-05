@@ -19,7 +19,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -109,8 +109,8 @@ a {
     letter-spacing: 0.02em;
 }
 /* --- three section --- */
-.two-section {
-    background-color: #f4f4fd;
+.three-section {
+    background-color: #F4F4FD;
 }
 .page-title-team {
     font-weight: 700;
