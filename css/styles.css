@@ -48,7 +48,7 @@ main {
 /*===== header =====*/
 
 .page-header {
-    border-bottom: 1p solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
     display: flex;
@@ -181,8 +181,7 @@ main {
 /* --- two section --- */
 
 .two-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 .page-title-two {
     position: absolute;
@@ -252,6 +251,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .profession-team {
     font-weight: 400;
@@ -267,6 +267,8 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 .four section {
     background: #f4f4fd;
     max-width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .page-title-portfolio {
     font-weight: 700;
