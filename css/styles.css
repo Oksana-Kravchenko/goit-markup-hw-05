@@ -264,7 +264,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     list-style-type: none;
 }
 /* --- four section --- */
-.four section {
+.four-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
