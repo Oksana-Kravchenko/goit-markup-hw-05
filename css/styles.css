@@ -264,8 +264,11 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     list-style-type: none;
 }
 /* --- four section --- */
-.four section {
-    padding: 120px 0 120px 0;
+.two-section {
+    background: #f4f4fd;
+    max-width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .page-title-portfolio {
     font-weight: 700;
