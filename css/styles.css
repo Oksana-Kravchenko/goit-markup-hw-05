@@ -264,9 +264,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     list-style-type: none;
 }
 /* --- four section --- */
-.two-section {
-    background: #f4f4fd;
-    max-width: 1440px;
+.four section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -285,9 +283,6 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
-    margin-right: auto;
-    max-width: 1128px;
-    margin-top: 72px;
 }
 .portfolio-card {
     background-color: #ffffff;
