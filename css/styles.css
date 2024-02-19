@@ -265,10 +265,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /* --- four section --- */
 .four section {
-    background: #f4f4fd;
-    max-width: 1440px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px 0;
 }
 .page-title-portfolio {
     font-weight: 700;
