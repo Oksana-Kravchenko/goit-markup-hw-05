@@ -433,6 +433,8 @@ overflow: hidden;
 .page-footer-container {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer-content {
@@ -471,6 +473,7 @@ overflow: hidden;
     background: #2e2f42;
     max-width: 264px;
 }
+
 .footer-social-text {
     font-weight: 500;
     color: #fff;
@@ -519,9 +522,7 @@ overflow: hidden;
     gap: 24px;
 }
 
-.footer-form-label {
-    display: flex;
-}
+
 
 .footer-form-input {
     width: 264px;
@@ -747,7 +748,7 @@ overflow: hidden;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked+.checkbox-label .checkbox-span {
+.checkbox-input:checked + .checkbox-label .checkbox-span {
     border: none;
     background-color: #404BBF;
     fill: #f4f4fd;
